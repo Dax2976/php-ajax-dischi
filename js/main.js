@@ -4,9 +4,9 @@ const app = new Vue({
       data_dischi:[],
     },
     mounted(){
-      axios.get("https://http://localhost:8800/php-ajax-dischi/src/php/api.php").then((res)=>{
-        console.log(res);
-        this.data_dischi = res.data
+      axios.get("http://localhost:8800/php-ajax-dischi/php/api.php").then((response)=>{
+        console.log(response);
+        this.data_dischi = response.data.response
       })
     }
   })

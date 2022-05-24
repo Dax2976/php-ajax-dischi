@@ -28,7 +28,7 @@
                     <div class="row text-center justify-content-between">
                         <?php 
                             include('data.php');
-                                foreach($data_dischi as $dischi => $details){ ?>
+                                foreach($data_dischi["response"] as $dischi => $details){ ?>
                                     <div class="AlbumContainer d-flex justify-content-space-around my-4 w18">
                                             <img src="<?php echo $details['poster'];?>" alt="" class="w-100 my-3">
                                             <div class="AlbumTitle my-2">
@@ -47,7 +47,7 @@
             </section>
         </main>
     </div>
-    <script src="../js/main.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
 </body>
 </html>
 
