@@ -1,0 +1,35 @@
+header{
+    background-color:#2E3A46;
+}
+
+.SpfLogo{
+    width: 5%;
+}
+.w18{
+        width: 18%;
+}
+
+.AlbumContainer{
+        background-color: #2E3A46;
+        flex-wrap: wrap;
+        flex-direction: column;
+}
+p{
+    line-height: 5px;
+}
+.AlbumDescription{
+        color: #6b7880;
+}
+.AlbumTitle{
+    color: #808078;
+}
+
+.FSize{
+    font-size: 20px;
+    font-weight: 600;
+}
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    /* height: 100vh; */
+    background-color: #1E2D3B;
+}
